@@ -73,7 +73,7 @@ def sell_pets
     arr.each do |pet| 
       pet.mood = "nervous" 
     end 
-  binding.pry
+  #binding.pry
   arr.clear
   end 
 end
